@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Security" verbose="1" >
+    <parameter name="component" value="Octopus-Security" />
+    <parameter name="testtype" value="Security" />
+   
+    <listeners>
+        <listener class-name="framework.testng.MasterTestListener"/>
+    </listeners>
+
+    <test name="ZapSecurityTest">
+        <classes>
+            <class name="framework.security.ZapSecurityTest"/>
+        </classes>
+    </test>
+</suite>
+

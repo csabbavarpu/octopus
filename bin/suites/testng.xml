@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sanity" verbose="1" >
+    <parameter name="component" value="Octopus" />
+    <parameter name="testtype" value="sanity" />
+   
+    <listeners>
+        <listener class-name="framework.testng.MasterTestListener"/>
+    </listeners>
+
+    <test name="OctopusTest">
+    <groups>
+	    <run>
+		<include name="functest" />
+	    </run>
+	</groups>
+        <classes>
+            <class name="framework.test.OctopusTest"/>
+        </classes>
+    </test>
+</suite>
+

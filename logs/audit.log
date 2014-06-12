@@ -1,7 +1,0 @@
-2014-04-12 17:36:07,638 DEBUG [Database] Set Suite Name ::Sanity
-2014-04-12 17:36:07,639 INFO [Database] Setting  UUID d2da68e5-491d-4533-bb96-add1a90d1f25
-2014-04-12 17:36:08,061 DEBUG [Database] Inserted test result for : startTest
-2014-04-13 14:15:47,434 DEBUG [Database] Inserted test result for : startTest
-2014-04-13 14:15:47,561 DEBUG [Database] Ended test run
-2014-04-13 14:15:47,729 DEBUG [Database] body is::<tr><td><font color='blue'>TestCaseName : startTest</font></td><td>TestResult : FAILED</td><td>starttime : 2014-04-12 17:33:33.0</td><td>endtime : 2014-04-13 14:15:47.0</td></tr>
-2014-04-13 14:15:47,730 DEBUG [Database] Result is::: <table border = 1 > <tr><td><font color='blue'>TestCaseName : startTest</font></td><td>TestResult : FAILED</td><td>starttime : 2014-04-12 17:33:33.0</td><td>endtime : 2014-04-13 14:15:47.0</td></tr> </table>
